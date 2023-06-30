@@ -1,0 +1,32 @@
+.card-container-2 {
+  margin-top: 80px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content-2 {
+  margin-left: 25px;
+}
+
+.title-card2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: var(--dark-purple);
+  width: 640px;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+
+.subtitle-card2 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: var(--dark-purple);
+  width: 650px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+:root {
+  --dark-purple: #5c00a5;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: black transparent;
+  background-color: #fefefe;
+  background-image: linear-gradient(135deg, #fefefe 2%, #ffffff 28%, #9d63fc 100%);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 3px; /* A altura só é vista quando a rolagem é horizontal */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--dark-purple);
+}

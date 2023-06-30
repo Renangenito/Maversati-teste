@@ -1,0 +1,35 @@
+.card-container-1 {
+  margin-top: 70px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  padding-right: 20px;
+}
+
+.title-card {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: var(--dark-purple);
+  width: 640px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.subtitle-card {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: var(--dark-purple);
+  width: 650px;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+.space-card {
+  margin-right: 15px;
+}

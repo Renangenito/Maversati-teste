@@ -1,0 +1,64 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 40px 10px 40px;
+  background-color: transparent;
+}
+
+.texts-links-group {
+  display: flex;
+  list-style-type: none;
+  margin-right: 320px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btns-group {
+  display: flex;
+  align-items: center;
+}
+
+#logo-maversati {
+  width: 275px;
+}
+
+.text-link-pages {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dark-purple);
+  margin-right: 35px;
+  cursor: pointer;
+  transition: 0.6ms;
+}
+
+.text-link-pages:hover {
+  font-weight: 600;
+}
+
+.btn-login {
+  margin-right: 20px;
+  padding: 6px 14px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.btn-gocart {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 70px;
+  font-size: 17px;
+}
+
+.btn-login,
+.btn-gocart {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  background-color: var(--dark-purple);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}

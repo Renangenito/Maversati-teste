@@ -1,0 +1,51 @@
+.inputs-shop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+  padding-left: 80px;
+}
+
+.input-search-shop {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: var(--dark-purple);
+  font-size: 15px;
+  width: 320px;
+  height: 25px;
+  border: 2px solid var(--dark-purple);
+  border-radius: 25px;
+  padding-left: 10px;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+.input-search-shop::placeholder {
+  color: var(--dark-purple);
+  font-weight: 500;
+}
+
+.text-input-shop {
+  color: var(--dark-purple);
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.checkbox-container {
+  margin-right: 8px;
+}
+
+.label-search-shop {
+  color: var(--dark-purple);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cards-products {
+  margin: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

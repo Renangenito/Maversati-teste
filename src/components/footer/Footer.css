@@ -1,0 +1,53 @@
+.footer-container {
+  margin-top: 220px;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.line {
+  height: 1px;
+  margin-bottom: 40px;
+}
+
+.footer-content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-footer {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0;
+  color: var(--dark-purple);
+}
+
+.btns-footer {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btn-footer {
+  color: #fff;
+  background-color: var(--dark-purple);
+  border: 0;
+  font-size: 30px;
+  margin: 10px 8px;
+  padding: 4px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  width: 30px;
+  height: 30px;
+}
