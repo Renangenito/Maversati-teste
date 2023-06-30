@@ -3,7 +3,7 @@ import Input from "../inputs/Input";
 import InputMiddle from "../inputs/InputMiddle";
 import "./FormRegister.css";
 import React, { useState } from "react";
-const User = require("../../data/user.js");
+import User from '../../data/user';
 
 export default function FormRegister() {
   const navigate = useNavigate();
